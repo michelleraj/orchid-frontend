@@ -7,7 +7,9 @@
   },
   "license": "MIT",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open"
+    
   },
   "dependencies": {
     "@material-ui/core": "^4.12.1",
