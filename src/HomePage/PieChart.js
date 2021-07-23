@@ -65,6 +65,14 @@ const chartOptions = {
     pie: { donut: { labels: { show: false }, colors: ["red"] } }
   }
 };
+const thirteen = { backgroundColor : "blue",
+    position:"absolute",
+    content: "",
+    height: "7px",
+  
+    width: "7px",
+    borderRadius: "50%",
+    bottom: "12px"}
 
 // QUESTION:
 // Order of appearance in screen size 'lg' is 1 | 2 | 3 (from left to Right)
@@ -72,12 +80,13 @@ const chartOptions = {
 // I need in the order say 1->3->2(from top to bottom) or say 2->1->3.
 
 class PieChart extends Component {
+  
   render() {
     const { classes } = this.props;
     return (
       <React.Fragment>
         <div>
-          <h1>Average Unit Occupancy </h1>
+          <h2 class="text-lg-center" style={{fontFamily: "Times New Roman",color:"#008B8B"}}>Average Unit Occupancy </h2>
         </div>
         <br />
         <br />

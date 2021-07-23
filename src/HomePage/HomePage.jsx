@@ -1,5 +1,6 @@
 import React from 'react';
 import Dashboard from "./Dashboard"
+import ModelPage from "./ModelPage"
 
 import { userService, authenticationService } from '@/_services';
 
@@ -22,7 +23,7 @@ class HomePage extends React.Component {
         const { currentUser, userFromApi } = this.state;
         return (
             
-                <Dashboard/>
+                <ModelPage/>
           
         );
     }
