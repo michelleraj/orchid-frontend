@@ -34,7 +34,7 @@ const CHART_DATA1 = [
     type: "bar",
     data: [23],
     title: {
-      text: 'Average Time Patients wait in the ED for an Inpatient Bed',
+      text: 'Average Time Patient wait in the ED for an Inpatient Bed',
       align: 'left',
       margin: 10,
       offsetX: 0,
