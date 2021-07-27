@@ -9,7 +9,7 @@ import { Grid, Card, CardHeader, Box } from "@material-ui/core";
 
 const CHART_DATA = [
   {
-    name: "SN",
+    name: "SN1",
     type: "bar",
     data: [23],
     title: {
